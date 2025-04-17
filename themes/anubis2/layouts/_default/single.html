@@ -1,0 +1,78 @@
+{{ define "main" }}
+    {{/*  {{ if .Menus }}
+        <nav class="post-navigation">
+        {{ range .Menus }}
+            <a href="{{ .ConfiguredURL | absLangURL }}" title="{{ .Title }}">{{ .Name | markdownify }}</a>
+        {{ end }}
+        </nav>
+    {{ end }}  */}}
+
+    <article class="post h-entry">
+        <div class="post-header">
+            <header>
+                {{ $random := (md5 .Title) }}
+                {{ $iconPath := printf "%sicon.svg" .File.Dir }}
+                {{ if fileExists $iconPath }}
+                    <style>
+                        .post-icon-{{ $random }}::before {
+                            display: inline-block;
+                            content: '';
+                            background: url("/{{ $iconPath }}");
+                            width: 1.2em;
+                            height: 1.2em;
+                            background-size: auto 100%;
+                            vertical-align: text-bottom;
+                            margin-right: 4px;
+                        }
+                    </style>
+                {{ end }}
+                <h1 class="p-name post-title{{ if .Params.favorite }} favorite{{end}}{{ if .Params.draft }} draft{{end}} {{ if fileExists $iconPath}}post-icon-{{$random}}{{end}}">{{ trim .Title  " " | markdownify }}</h1>
+                {{ partial "post-language-switcher.html" . }}
+            </header>
+            {{ partial "post-info.html" . }}
+        </div>
+        {{ partial "toc.html" .}}
+        <div class="content e-content">
+            {{ .Content }}
+        </div>
+
+    </article>
+
+    {{ $readNextPosts := 3}}
+    {{ if site.Params.readNextPosts }}
+        {{ $readNextPosts = site.Params.readNextPosts }}
+    {{ end }}
+
+    {{ if gt $readNextPosts 0 }}
+        {{ $related := .Site.RegularPages.Related . | first $readNextPosts }}
+        {{ with $related }}
+            <h3 class="read-next-title noselect">{{ i18n "readNext" }}</h3>
+            <ul class="read-next-posts noselect">
+                {{ range . }}
+                <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                {{ end }}
+            </ul>
+        {{ end }}
+    {{ end }}
+
+    {{ if and (.Site.Params.paginationSinglePost) (ne .Type "page") }}
+        {{ partial "post-pagination.html" . }}
+    {{ end }}
+
+    {{ if not .Params.disableComments }}
+        {{ partial "feat-comments/comments.html" . }}
+    {{ end }}
+
+    {{/*  When you use ```mermaid``, render-codeblock-mermaid.html is called and
+        `.Store.Set "hasMermaid"` is executed.
+        `.Store.Get "hasMermaid"` will return true and mermaid.js will be loaded.
+    */}}
+
+    {{ if .Store.Get "hasMermaid" }}
+        {{ partial "features/mermaid_support.html" . }}
+    {{ end }}
+    
+    {{ if .Params.math }}
+        {{ partial "features/mathjax_support.html" . }}
+    {{ end }}
+{{ end }}

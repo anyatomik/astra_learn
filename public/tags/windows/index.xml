@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows on Astra-learn</title>
+    <link>/AstraLearn/tags/windows/</link>
+    <description>Astra-learn (Windows)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+      
+        <managingEditor> 
+          
+            (AnyaTomik)
+          
+        </managingEditor>
+      
+
+      
+    
+
+    
+    <lastBuildDate>Thu, 03 Apr 2025 17:19:44 +0500</lastBuildDate>
+    
+    <atom:link href="/AstraLearn/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to Install</title>
+      <link>/AstraLearn/posts/how-to-download/</link>
+      <pubDate>Thu, 03 Apr 2025 17:19:44 +0500</pubDate>
+      <author>  (AnyaTomik)</author>
+      <guid>/AstraLearn/posts/how-to-download/</guid>
+      <description>&lt;h2 id=&#34;for-debian-distributions&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#for-debian-distributions&#34;&gt;
+        #
+    &lt;/a&gt;
+    For Debian distributions
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;p&gt;Examples of distributions: Astra Linux, Ubuntu, Kali Linux &lt;br&gt; &lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 1:&lt;/strong&gt; Download the .deb package from the link [click here to download](&lt;a href=&#34;https://anyatomik.github.io/AstraLearn/downloads/br%3E&#34;&gt;https://anyatomik.github.io/AstraLearn/downloads/br&gt;&lt;/a&gt; &lt;br&gt;
+&lt;strong&gt;Step 2:&lt;/strong&gt; Check the location of the file where it ended up after downloading, remember the path and name of the file &lt;br&gt; &lt;br&gt;
+&lt;strong&gt;Step 3:&lt;/strong&gt; Open a terminal &lt;br&gt; &lt;br&gt;
+&lt;strong&gt;Step 4:&lt;/strong&gt; Enter the command &lt;br&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;cd ~/Download/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;em&gt;Instead of &amp;ldquo;Downloads&amp;rdquo;, enter the path to the file from step 2&lt;/em&gt; &lt;br&gt;
+&lt;strong&gt;Step 5:&lt;/strong&gt; Enter the command &lt;br&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo dpkg -i filename.deb
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;em&gt;Instead of &amp;ldquo;filename&amp;rdquo;, enter the file name to the file from step 2&lt;/em&gt; &lt;br&gt; &lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Congratulations on your installation. Enjoy using it!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

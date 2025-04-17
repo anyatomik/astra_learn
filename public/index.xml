@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Astra-learn</title>
+    <link>/AstraLearn/</link>
+    <description>Astra-learn</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+      
+        <managingEditor> 
+          
+            (AnyaTomik)
+          
+        </managingEditor>
+      
+
+      
+    
+
+    
+    <lastBuildDate>Thu, 03 Apr 2025 21:13:29 +0500</lastBuildDate>
+    
+    <atom:link href="/AstraLearn/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Downloads</title>
+      <link>/AstraLearn/downloads/</link>
+      <pubDate>Thu, 03 Apr 2025 21:13:29 +0500</pubDate>
+      <author>  (AnyaTomik)</author>
+      <guid>/AstraLearn/downloads/</guid>
+      <description>&lt;br&gt;
+&lt;h2 id=&#34;linux-downloads&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#linux-downloads&#34;&gt;
+        #
+    &lt;/a&gt;
+    Linux downloads
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Installing from deb packet&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.google.com/url?sa=i&amp;amp;url=https://pikabu.ru/story/windows_vs_linux_9008606&amp;amp;psig=AOvVaw17ktywBzO-eeXilm0tgmz9&amp;amp;ust=1743783400901000&amp;amp;source=images&amp;amp;cd=vfe&amp;amp;opi=89978449&amp;amp;ved=0CBEQjRxqFwoTCKiq68OhvIwDFQAAAAAdAAAAABAI&#34;&gt;astra-learn.deb (click to download)&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;windows-downloads&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#windows-downloads&#34;&gt;
+        #
+    &lt;/a&gt;
+    Windows downloads
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;install from exe application&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.google.com/url?sa=i&amp;amp;url=https://pikabu.ru/story/windows_vs_linux_9008606&amp;amp;psig=AOvVaw17ktywBzO-eeXilm0tgmz9&amp;amp;ust=1743783400901000&amp;amp;source=images&amp;amp;cd=vfe&amp;amp;opi=89978449&amp;amp;ved=0CBEQjRxqFwoTCKiq68OhvIwDFQAAAAAdAAAAABAI&#34;&gt;astra-learn.exe (click to download)&lt;/a&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt;  &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash; &lt;br&gt; &lt;em&gt;How to install? See on &lt;a href=&#34;http://localhost:1313/posts/how-to-download/&#34;&gt;instruction&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to Install</title>
+      <link>/AstraLearn/posts/how-to-download/</link>
+      <pubDate>Thu, 03 Apr 2025 17:19:44 +0500</pubDate>
+      <author>  (AnyaTomik)</author>
+      <guid>/AstraLearn/posts/how-to-download/</guid>
+      <description>&lt;h2 id=&#34;for-debian-distributions&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#for-debian-distributions&#34;&gt;
+        #
+    &lt;/a&gt;
+    For Debian distributions
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;p&gt;Examples of distributions: Astra Linux, Ubuntu, Kali Linux &lt;br&gt; &lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 1:&lt;/strong&gt; Download the .deb package from the link [click here to download](&lt;a href=&#34;https://anyatomik.github.io/AstraLearn/downloads/br%3E&#34;&gt;https://anyatomik.github.io/AstraLearn/downloads/br&gt;&lt;/a&gt; &lt;br&gt;
+&lt;strong&gt;Step 2:&lt;/strong&gt; Check the location of the file where it ended up after downloading, remember the path and name of the file &lt;br&gt; &lt;br&gt;
+&lt;strong&gt;Step 3:&lt;/strong&gt; Open a terminal &lt;br&gt; &lt;br&gt;
+&lt;strong&gt;Step 4:&lt;/strong&gt; Enter the command &lt;br&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;cd ~/Download/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;em&gt;Instead of &amp;ldquo;Downloads&amp;rdquo;, enter the path to the file from step 2&lt;/em&gt; &lt;br&gt;
+&lt;strong&gt;Step 5:&lt;/strong&gt; Enter the command &lt;br&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo dpkg -i filename.deb
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;em&gt;Instead of &amp;ldquo;filename&amp;rdquo;, enter the file name to the file from step 2&lt;/em&gt; &lt;br&gt; &lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Congratulations on your installation. Enjoy using it!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/AstraLearn/about/</link>
+      <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
+      <author>  (AnyaTomik)</author>
+      <guid>/AstraLearn/about/</guid>
+      <description>&lt;h1 id=&#34;about-astralearn&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#about-astralearn&#34;&gt;
+        ##
+    &lt;/a&gt;
+    About AstraLearn
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;&lt;br&gt; The &lt;strong&gt;Astra Learn&lt;/strong&gt; project is an advanced application designed to simplify learning the Astra Linux operating system. We realize that transition to a new OS can be complicated and cause a lot of questions, so we have developed a user-friendly and intuitive interface that makes learning easy and accessible for everyone.&lt;/p&gt;
+&lt;br&gt; 
+The main features of the app are:
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Step-by-step guides&lt;/strong&gt;:  Our app provides easy to understand tutorials on how to use Astra Linux. We plan to introduce visual video tutorials in&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Tests&lt;/strong&gt;:  Each topic will have a different text assigned to it, giving you the opportunity to repeat the topic and assess your knowledge.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;AstraLearn&lt;/strong&gt; is developed on the &lt;strong&gt;QT creator&lt;/strong&gt; platform, making it cross-platform and available for both Linux and Windows&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+With our application you will be able to use all the features of this Astra Linux operating system with confidence. Our goal is to make learning available and fun, so that everyone can easily adapt to new technologies. Start your learning and discover a world of possibilities of Astra Linux!
+</description>
+    </item>
+    
+  </channel>
+</rss>

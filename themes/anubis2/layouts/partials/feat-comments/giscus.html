@@ -1,0 +1,74 @@
+<!-- Check parameters -->
+{{ if not (isset site.Params.Anubis2.Services.Giscus "repo") }}
+    {{ errorf "Anubis2: You enabled params.anubis2.services.giscus, but the parameter 'params.anubis2.services.giscus.repo' is not set." }}
+{{ end }}
+
+{{ if not (isset site.Params.Anubis2.Services.Giscus "repoid") }}
+    {{ errorf "Anubis2: You enabled params.anubis2.services.giscus, but the parameter 'params.anubis2.services.giscus.repoId' is not set." }}
+{{ end }}
+
+{{ if not (isset site.Params.Anubis2.Services.Giscus "category") }}
+    {{ errorf "Anubis2: You enabled params.anubis2.services.giscus, but the parameter 'params.anubis2.services.giscus.category' is not set." }}
+{{ end }}
+
+{{ if not (isset site.Params.Anubis2.Services.Giscus "categoryid") }}
+    {{ errorf "Anubis2: You enabled params.anubis2.services.giscus, but the parameter 'params.anubis2.services.giscus.categoryId' is not set." }}
+{{ end }}
+
+
+{{ $theme := "preferred_color_scheme" }}
+{{ $mapping := site.Params.Anubis2.Services.Giscus.dataMapping | default "og:title" }} 
+{{ $language := site.Params.Anubis2.Services.Giscus.language | default "en" }} 
+{{ $lazyload := site.Params.Anubis2.Services.Giscus.lazyLoad | default false }} 
+
+
+{{ $anubis2_colorTheme := "light" }}
+{{ if isset site.Params "colortheme"}}
+  {{ $anubis2_colorTheme = site.Params.colortheme | lower }}
+  {{ warnf "Anubis2: The parameter 'params.colorTheme' is deprecated. Use 'params.anubis2.colorTheme' instead." }}
+{{ else if isset site.Params.Anubis2 "colortheme" }}
+  {{ $anubis2_colorTheme = site.Params.anubis2.colorTheme | lower }}
+{{ end }}
+
+<!-- check if colorTheme is "auto", "light", "dark" -->
+{{ if or (eq $anubis2_colorTheme "auto") (eq $anubis2_colorTheme "light") (eq $anubis2_colorTheme "dark") }}
+{{ else }}
+  {{ errorf "Anubis2: The parameter 'params.anubis2.colorTheme' must be one of 'auto', 'light', or 'dark'. You set it to '%s'" $anubis2_colorTheme }}
+{{ end }}
+
+<script>
+        function detectCurrentScheme2() {
+                const defaultTheme = "{{ $anubis2_colorTheme }}";
+                if (localStorage !== null && localStorage.getItem("user-color-scheme")) {
+                        return localStorage.getItem("user-color-scheme");
+                }
+                if (defaultTheme === "dark" || defaultTheme === "light") {
+                        return defaultTheme;
+                }
+                return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+
+        let giscusTheme = detectCurrentScheme2();
+        let giscusAttributes = {
+                src: "https://giscus.app/client.js",
+                "data-repo": "{{- site.Params.Anubis2.Services.Giscus.Repo -}}",
+                "data-repo-id": "{{- site.Params.Anubis2.Services.Giscus.RepoId -}}",
+                "data-category": "{{- site.Params.Anubis2.Services.Giscus.Category -}}",
+                "data-category-id": "{{- site.Params.Anubis2.Services.Giscus.CategoryId -}}",
+                "data-mapping": "{{ $mapping }}",
+                "data-strict": "0",
+                "data-reactions-enabled": "1",
+                "data-emit-metadata": "0",
+                "data-input-position": "bottom",
+                "data-theme": giscusTheme,
+                "data-lang": "{{ $language }}",
+                crossorigin: "anonymous",
+                lazyload: "{{ $lazyload }}",
+                async: true,
+        };
+        let main = document.querySelector("main");
+        let giscusScript = document.createElement("script");
+        Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
+        main.appendChild(giscusScript);
+</script>
+

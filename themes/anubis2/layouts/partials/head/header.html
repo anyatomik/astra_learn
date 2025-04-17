@@ -1,0 +1,37 @@
+<div class="header-top">
+    <div class="header-top-left">
+        {{ partial "head/site-title.html" . }}
+        {{ partial "head/theme-switcher.html" . }}
+        {{ partial "head/social-icons.html" . }}
+    </div>
+    <div class="header-top-right">
+
+    </div>
+</div>
+
+{{ if site.Menus.main }}
+    <nav class="noselect">
+        {{ $currentPage := . }}
+        {{ range site.Menus.main }}
+        <a class="{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL | absLangURL }}" title="{{ .Title }}">{{ .Name }}</a>
+        {{ end }}
+    </nav>
+{{ else }}
+    <nav></nav>
+{{ end }}
+
+<!-- .Params is the current page config. site.Params is globall config in hugo.toml -->
+{{ $anubis2_enableMathGlobally := false }}
+{{ if isset site.Params "math" }}
+    {{ $anubis2_enableMathGlobally = site.Params.math }}
+    {{ warnf "Anubis2: the parameter 'params.math' is deprecated, please use `params.anubis2.enableMathGlobally` instead." }}
+{{ else if isset site.Params.Anubis2 "enablemathglobally" }}
+    {{ $anubis2_enableMathGlobally = site.Params.Anubis2.enableMathGlobally }}
+{{ end }}
+
+<!-- If math is enabled globally, we need to load mathjax -->
+{{ if or $anubis2_enableMathGlobally .Params.math }}
+    {{ partial "features/mathjax_support.html" . }}
+{{ end }}
+
+{{ partial "head/header-extra.html" . }}
