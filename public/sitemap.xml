@@ -2,14 +2,14 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <sitemap>
-    <loc>https://anyatomik.github.io/AstraLearn/en/sitemap.xml</loc>
+    <loc>http://localhost:41501/AstraLearn/en/sitemap.xml</loc>
     
       <lastmod>2025-04-03T21:13:29+05:00</lastmod>
     
   </sitemap>
   
   <sitemap>
-    <loc>https://anyatomik.github.io/AstraLearn/ru/sitemap.xml</loc>
+    <loc>http://localhost:41501/AstraLearn/ru/sitemap.xml</loc>
     
       <lastmod>2025-04-03T21:13:29+05:00</lastmod>
     

@@ -8,12 +8,6 @@
     <language>ru</language>
     
       
-        <managingEditor> 
-          
-            (AnyaTomik)
-          
-        </managingEditor>
-      
 
       
     
@@ -25,10 +19,71 @@
     
     
     <item>
+      <title>Downloads</title>
+      <link>/AstraLearn/ru/downloads/</link>
+      <pubDate>Thu, 03 Apr 2025 21:13:29 +0500</pubDate>
+      
+      <guid>/AstraLearn/ru/downloads/</guid>
+      <description>&lt;br&gt;
+&lt;h2 id=&#34;скачать-для-linux&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#%d1%81%d0%ba%d0%b0%d1%87%d0%b0%d1%82%d1%8c-%d0%b4%d0%bb%d1%8f-linux&#34;&gt;
+        #
+    &lt;/a&gt;
+    Скачать для Linux
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Установка из deb пакета&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.google.com/url?sa=i&amp;amp;url=https://pikabu.ru/story/windows_vs_linux_9008606&amp;amp;psig=AOvVaw17ktywBzO-eeXilm0tgmz9&amp;amp;ust=1743783400901000&amp;amp;source=images&amp;amp;cd=vfe&amp;amp;opi=89978449&amp;amp;ved=0CBEQjRxqFwoTCKiq68OhvIwDFQAAAAAdAAAAABAI&#34;&gt;astra-learn.deb (нажмите для скачивания)&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;скачать-для-windows&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#%d1%81%d0%ba%d0%b0%d1%87%d0%b0%d1%82%d1%8c-%d0%b4%d0%bb%d1%8f-windows&#34;&gt;
+        #
+    &lt;/a&gt;
+    Скачать для Windows
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Установка из exe приложения&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.google.com/url?sa=i&amp;amp;url=https://pikabu.ru/story/windows_vs_linux_9008606&amp;amp;psig=AOvVaw17ktywBzO-eeXilm0tgmz9&amp;amp;ust=1743783400901000&amp;amp;source=images&amp;amp;cd=vfe&amp;amp;opi=89978449&amp;amp;ved=0CBEQjRxqFwoTCKiq68OhvIwDFQAAAAAdAAAAABAI&#34;&gt;astra-learn.exe (нажмите для скачивания)&lt;/a&gt;
+&lt;br&gt; &lt;br&gt; &lt;br&gt;  &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash; &lt;br&gt; &lt;em&gt;Как установить? Смотрите в &lt;a href=&#34;http://localhost:41501/AstraLearn/ru/posts/how-to-download/&#34;&gt;инструкции&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Как установить</title>
+      <link>/AstraLearn/ru/posts/how-to-download/</link>
+      <pubDate>Thu, 03 Apr 2025 17:20:20 +0500</pubDate>
+      
+      <guid>/AstraLearn/ru/posts/how-to-download/</guid>
+      <description>&lt;h2 id=&#34;для-debian-дистрибутивов&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#%d0%b4%d0%bb%d1%8f-debian-%d0%b4%d0%b8%d1%81%d1%82%d1%80%d0%b8%d0%b1%d1%83%d1%82%d0%b8%d0%b2%d0%be%d0%b2&#34;&gt;
+        #
+    &lt;/a&gt;
+    Для Debian дистрибутивов
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;p&gt;Примеры дистрибутивов: Astra Linux, Ubuntu, Kali Linux &lt;br&gt; &lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Шаг 1:&lt;/strong&gt; Скачайте .deb пакет по ссылке &lt;a href=&#34;https://anyatomik.github.io/AstraLearn/ru/downloads/&#34;&gt;нажмите для перехода в окно загрузок&lt;/a&gt; &lt;br&gt; &lt;br&gt;
+&lt;strong&gt;Шаг 2:&lt;/strong&gt; Проверьте путь файла, когда он скачается, запомните путь и имя файла &lt;br&gt; &lt;br&gt;
+&lt;strong&gt;Шаг 3:&lt;/strong&gt; Откройте терминал &lt;br&gt; &lt;br&gt;
+&lt;strong&gt;Шаг 4:&lt;/strong&gt; Введите команду &lt;br&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;cd ~/Download/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;em&gt;Вместо &amp;ldquo;Downloads&amp;rdquo;, введите пть, который вы зпомнили из пункта 2&lt;/em&gt; &lt;br&gt;  &lt;br&gt;
+&lt;strong&gt;Шаг 5:&lt;/strong&gt; Введите команду &lt;br&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo dpkg -i filename.deb
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;em&gt;Вместо &amp;ldquo;filename&amp;rdquo;, введите имя файла, который вы запомнили из пункта 2&lt;/em&gt; &lt;br&gt; &lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Поздравляем с установкой. Приятного использования!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>О продукте</title>
       <link>/AstraLearn/ru/about/</link>
       <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
-      <author>  (AnyaTomik)</author>
+      
       <guid>/AstraLearn/ru/about/</guid>
       <description>&lt;h1 id=&#34;об-astralearn&#34; &gt;
 &lt;div&gt;

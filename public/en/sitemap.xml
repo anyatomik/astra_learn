@@ -2,79 +2,148 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-        <loc>https://anyatomik.github.io/AstraLearn/</loc>
+        <loc>http://localhost:41501/AstraLearn/</loc>
         <lastmod>2025-04-03T21:13:29+05:00</lastmod>
         <xhtml:link
           rel="alternate"
           hreflang="ru"
-          href="https://anyatomik.github.io/AstraLearn/ru/"
+          href="http://localhost:41501/AstraLearn/ru/"
         />
         <xhtml:link
           rel="alternate"
           hreflang="en"
-          href="https://anyatomik.github.io/AstraLearn/"
+          href="http://localhost:41501/AstraLearn/"
         />
       </url><url>
-        <loc>https://anyatomik.github.io/AstraLearn/posts/</loc>
+        <loc>http://localhost:41501/AstraLearn/downloads/</loc>
+        <lastmod>2025-04-03T21:13:29+05:00</lastmod>
+        <xhtml:link
+          rel="alternate"
+          hreflang="ru"
+          href="http://localhost:41501/AstraLearn/ru/downloads/"
+        />
+        <xhtml:link
+          rel="alternate"
+          hreflang="en"
+          href="http://localhost:41501/AstraLearn/downloads/"
+        />
+      </url><url>
+        <loc>http://localhost:41501/AstraLearn/tags/astra-learn/</loc>
         <lastmod>2025-04-03T17:19:44+05:00</lastmod>
         <xhtml:link
           rel="alternate"
           hreflang="ru"
-          href="https://anyatomik.github.io/AstraLearn/ru/posts/"
+          href="http://localhost:41501/AstraLearn/ru/tags/astra-learn/"
         />
         <xhtml:link
           rel="alternate"
           hreflang="en"
-          href="https://anyatomik.github.io/AstraLearn/posts/"
+          href="http://localhost:41501/AstraLearn/tags/astra-learn/"
         />
       </url><url>
-        <loc>https://anyatomik.github.io/AstraLearn/about/</loc>
+        <loc>http://localhost:41501/AstraLearn/tags/debian/</loc>
+        <lastmod>2025-04-03T17:19:44+05:00</lastmod>
+        <xhtml:link
+          rel="alternate"
+          hreflang="ru"
+          href="http://localhost:41501/AstraLearn/ru/tags/debian/"
+        />
+        <xhtml:link
+          rel="alternate"
+          hreflang="en"
+          href="http://localhost:41501/AstraLearn/tags/debian/"
+        />
+      </url><url>
+        <loc>http://localhost:41501/AstraLearn/tags/download/</loc>
+        <lastmod>2025-04-03T17:19:44+05:00</lastmod>
+      </url><url>
+        <loc>http://localhost:41501/AstraLearn/posts/how-to-download/</loc>
+        <lastmod>2025-04-03T17:19:44+05:00</lastmod>
+        <xhtml:link
+          rel="alternate"
+          hreflang="ru"
+          href="http://localhost:41501/AstraLearn/ru/posts/how-to-download/"
+        />
+        <xhtml:link
+          rel="alternate"
+          hreflang="en"
+          href="http://localhost:41501/AstraLearn/posts/how-to-download/"
+        />
+      </url><url>
+        <loc>http://localhost:41501/AstraLearn/posts/</loc>
+        <lastmod>2025-04-03T17:19:44+05:00</lastmod>
+        <xhtml:link
+          rel="alternate"
+          hreflang="ru"
+          href="http://localhost:41501/AstraLearn/ru/posts/"
+        />
+        <xhtml:link
+          rel="alternate"
+          hreflang="en"
+          href="http://localhost:41501/AstraLearn/posts/"
+        />
+      </url><url>
+        <loc>http://localhost:41501/AstraLearn/tags/</loc>
+        <lastmod>2025-04-03T17:19:44+05:00</lastmod>
+        <xhtml:link
+          rel="alternate"
+          hreflang="ru"
+          href="http://localhost:41501/AstraLearn/ru/tags/"
+        />
+        <xhtml:link
+          rel="alternate"
+          hreflang="en"
+          href="http://localhost:41501/AstraLearn/tags/"
+        />
+      </url><url>
+        <loc>http://localhost:41501/AstraLearn/tags/windows/</loc>
+        <lastmod>2025-04-03T17:19:44+05:00</lastmod>
+        <xhtml:link
+          rel="alternate"
+          hreflang="ru"
+          href="http://localhost:41501/AstraLearn/ru/tags/windows/"
+        />
+        <xhtml:link
+          rel="alternate"
+          hreflang="en"
+          href="http://localhost:41501/AstraLearn/tags/windows/"
+        />
+      </url><url>
+        <loc>http://localhost:41501/AstraLearn/about/</loc>
         <lastmod>2025-04-03T00:00:00+00:00</lastmod>
         <xhtml:link
           rel="alternate"
           hreflang="ru"
-          href="https://anyatomik.github.io/AstraLearn/ru/about/"
+          href="http://localhost:41501/AstraLearn/ru/about/"
         />
         <xhtml:link
           rel="alternate"
           hreflang="en"
-          href="https://anyatomik.github.io/AstraLearn/about/"
+          href="http://localhost:41501/AstraLearn/about/"
         />
       </url><url>
-        <loc>https://anyatomik.github.io/AstraLearn/authors/</loc>
+        <loc>http://localhost:41501/AstraLearn/authors/</loc>
         <xhtml:link
           rel="alternate"
           hreflang="ru"
-          href="https://anyatomik.github.io/AstraLearn/ru/authors/"
+          href="http://localhost:41501/AstraLearn/ru/authors/"
         />
         <xhtml:link
           rel="alternate"
           hreflang="en"
-          href="https://anyatomik.github.io/AstraLearn/authors/"
+          href="http://localhost:41501/AstraLearn/authors/"
         />
       </url><url>
-        <loc>https://anyatomik.github.io/AstraLearn/categories/</loc>
+        <loc>http://localhost:41501/AstraLearn/categories/</loc>
         <xhtml:link
           rel="alternate"
           hreflang="ru"
-          href="https://anyatomik.github.io/AstraLearn/ru/categories/"
+          href="http://localhost:41501/AstraLearn/ru/categories/"
         />
         <xhtml:link
           rel="alternate"
           hreflang="en"
-          href="https://anyatomik.github.io/AstraLearn/categories/"
-        />
-      </url><url>
-        <loc>https://anyatomik.github.io/AstraLearn/tags/</loc>
-        <xhtml:link
-          rel="alternate"
-          hreflang="ru"
-          href="https://anyatomik.github.io/AstraLearn/ru/tags/"
-        />
-        <xhtml:link
-          rel="alternate"
-          hreflang="en"
-          href="https://anyatomik.github.io/AstraLearn/tags/"
+          href="http://localhost:41501/AstraLearn/categories/"
         />
       </url>
 </urlset>
