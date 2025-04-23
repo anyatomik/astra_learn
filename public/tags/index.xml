@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Astra-learn</title>
-    <link>/AstraLearn/tags/</link>
+    <link>/astra_learn/tags/</link>
     <description>Astra-learn (Tags)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -15,7 +15,7 @@
     
     <lastBuildDate>Thu, 03 Apr 2025 17:19:44 +0500</lastBuildDate>
     
-    <atom:link href="/AstraLearn/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/astra_learn/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Astra-Learn on Astra-learn</title>
-    <link>/AstraLearn/ru/tags/astra-learn/</link>
+    <link>/astra_learn/ru/tags/astra-learn/</link>
     <description>Astra-learn (Astra-Learn)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
@@ -15,15 +15,15 @@
     
     <lastBuildDate>Thu, 03 Apr 2025 17:20:20 +0500</lastBuildDate>
     
-    <atom:link href="/AstraLearn/ru/tags/astra-learn/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/astra_learn/ru/tags/astra-learn/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Как установить</title>
-      <link>/AstraLearn/ru/posts/how-to-download/</link>
+      <link>/astra_learn/ru/posts/how-to-download/</link>
       <pubDate>Thu, 03 Apr 2025 17:20:20 +0500</pubDate>
       
-      <guid>/AstraLearn/ru/posts/how-to-download/</guid>
+      <guid>/astra_learn/ru/posts/how-to-download/</guid>
       <description>&lt;h2 id=&#34;для-debian-дистрибутивов&#34; &gt;
 &lt;div&gt;
     &lt;a href=&#34;#%d0%b4%d0%bb%d1%8f-debian-%d0%b4%d0%b8%d1%81%d1%82%d1%80%d0%b8%d0%b1%d1%83%d1%82%d0%b8%d0%b2%d0%be%d0%b2&#34;&gt;

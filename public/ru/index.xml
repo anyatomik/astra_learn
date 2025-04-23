@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Astra-learn</title>
-    <link>/AstraLearn/ru/</link>
+    <link>/astra_learn/ru/</link>
     <description>Astra-learn</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
@@ -15,15 +15,15 @@
     
     <lastBuildDate>Thu, 03 Apr 2025 21:13:29 +0500</lastBuildDate>
     
-    <atom:link href="/AstraLearn/ru/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/astra_learn/ru/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Downloads</title>
-      <link>/AstraLearn/ru/downloads/</link>
+      <link>/astra_learn/ru/downloads/</link>
       <pubDate>Thu, 03 Apr 2025 21:13:29 +0500</pubDate>
       
-      <guid>/AstraLearn/ru/downloads/</guid>
+      <guid>/astra_learn/ru/downloads/</guid>
       <description>&lt;br&gt;
 &lt;h2 id=&#34;скачать-для-linux&#34; &gt;
 &lt;div&gt;
@@ -45,16 +45,16 @@
 &lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Установка из exe приложения&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.google.com/url?sa=i&amp;amp;url=https://pikabu.ru/story/windows_vs_linux_9008606&amp;amp;psig=AOvVaw17ktywBzO-eeXilm0tgmz9&amp;amp;ust=1743783400901000&amp;amp;source=images&amp;amp;cd=vfe&amp;amp;opi=89978449&amp;amp;ved=0CBEQjRxqFwoTCKiq68OhvIwDFQAAAAAdAAAAABAI&#34;&gt;astra-learn.exe (нажмите для скачивания)&lt;/a&gt;
-&lt;br&gt; &lt;br&gt; &lt;br&gt;  &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash; &lt;br&gt; &lt;em&gt;Как установить? Смотрите в &lt;a href=&#34;http://localhost:41501/AstraLearn/ru/posts/how-to-download/&#34;&gt;инструкции&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;br&gt; &lt;br&gt; &lt;br&gt;  &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash; &lt;br&gt; &lt;em&gt;Как установить? Смотрите в &lt;a href=&#34;http://localhost:41501/astra_learn/ru/posts/how-to-download/&#34;&gt;инструкции&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Как установить</title>
-      <link>/AstraLearn/ru/posts/how-to-download/</link>
+      <link>/astra_learn/ru/posts/how-to-download/</link>
       <pubDate>Thu, 03 Apr 2025 17:20:20 +0500</pubDate>
       
-      <guid>/AstraLearn/ru/posts/how-to-download/</guid>
+      <guid>/astra_learn/ru/posts/how-to-download/</guid>
       <description>&lt;h2 id=&#34;для-debian-дистрибутивов&#34; &gt;
 &lt;div&gt;
     &lt;a href=&#34;#%d0%b4%d0%bb%d1%8f-debian-%d0%b4%d0%b8%d1%81%d1%82%d1%80%d0%b8%d0%b1%d1%83%d1%82%d0%b8%d0%b2%d0%be%d0%b2&#34;&gt;
@@ -81,10 +81,10 @@
     
     <item>
       <title>О продукте</title>
-      <link>/AstraLearn/ru/about/</link>
+      <link>/astra_learn/ru/about/</link>
       <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
       
-      <guid>/AstraLearn/ru/about/</guid>
+      <guid>/astra_learn/ru/about/</guid>
       <description>&lt;h1 id=&#34;об-astralearn&#34; &gt;
 &lt;div&gt;
     &lt;a href=&#34;#%d0%be%d0%b1-astralearn&#34;&gt;
