@@ -89,11 +89,11 @@ name = "About"
 url = "/about/"
 weight = 2
 
-[[menu.main]]
-identifier = "tags"
-name = "Tags"
-url = "/tags/"
-weight = 3
+#[[menu.main]]
+#identifier = "tags"
+#name = "Tags"
+#url = "/tags/"
+#weight = 3
 
 [[menu.main]]
 name = "Posts"
@@ -126,17 +126,17 @@ name = "О продукте"
 url = "/about/"
 weight = 2
 
-[[languages.ru.menu.main]]
-identifier = "tags"
-name = "Теги"
-url = "/tags/"
-weight = 4
+#[[languages.ru.menu.main]]
+#identifier = "tags"
+#name = "Теги"
+#url = "/tags/"
+#weight = 4
 
 [[languages.ru.menu.main]]
 identifier = "archive"
 name = "Записи"
 url = "/posts/"
-weight = 5
+weight = 4
 
 [[languages.ru.menu.main]]
 identifier = "downloads"
