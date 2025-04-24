@@ -125,25 +125,25 @@ weight = 1
 [[languages.ru.menu.main]]
 identifier = "about"
 name = "О продукте"
-url = "/about/"
+url = "about/"
 weight = 2
 
 [[languages.ru.menu.main]]
 identifier = "tags"
 name = "Теги"
-url = "/tags/"
+url = "tags/"
 weight = 5
 
 [[languages.ru.menu.main]]
 identifier = "archive"
 name = "Записи"
-url = "/posts/"
+url = "posts/"
 weight = 4
 
 [[languages.ru.menu.main]]
 identifier = "downloads"
 name = "Загрузки"
-url = "/downloads/"
+url = "downloads/"
 weight = 3
 
 [languages.ru.params]
