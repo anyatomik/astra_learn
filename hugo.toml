@@ -119,7 +119,7 @@ languageName = "Russian"
 [[languages.ru.menu.main]]
 identifier = "home"
 name = "Главная"
-url = "/"
+url = " "
 weight = 1
 
 [[languages.ru.menu.main]]
