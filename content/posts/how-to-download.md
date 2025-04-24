@@ -15,7 +15,7 @@ hidden = false
 ## For Debian distributions
 Examples of distributions: Astra Linux, Ubuntu, Kali Linux <br> <br>
 
-**Step 1:** Download the .deb package from the link [click here to download](https://anyatomik.github.io/AstraLearn/downloads/br> <br>
+**Step 1:** Download the .deb package from the link [click here to download](https://anyatomik.github.io/astra_learn/downloads/) <br> <br>
 **Step 2:** Check the location of the file where it ended up after downloading, remember the path and name of the file <br> <br>
 **Step 3:** Open a terminal <br> <br>
 **Step 4:** Enter the command <br>
