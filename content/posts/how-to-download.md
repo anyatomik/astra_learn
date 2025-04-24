@@ -1,7 +1,6 @@
 +++
 author = "AnyaTomik"
 date = '2025-04-03T17:19:44+05:00'
-draft = true
 title = 'How to Install'
 tags = [
    "download",
