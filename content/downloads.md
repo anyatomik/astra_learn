@@ -16,5 +16,5 @@ title = 'Downloads'
 
 **install from exe application**  
 
-[astra-learn.exe (click to download)]() <br> <br> <br>  ----------------------------------------------------------- <br> *How to install? See on [instruction](http://localhost:1313/posts/how-to-download/)* 
+[astra-learn.exe (click to download)]() <br> <br> <br>  ----------------------------------------------------------- <br> *How to install? See on [instruction](/posts/how-to-download/)* 
 
