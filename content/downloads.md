@@ -5,14 +5,16 @@ title = 'Downloads'
 +++
 <br>
 
+*Attention! The application is under development and is not yet ready for use. Download links are not available at the moment.
+
 ## Linux downloads  
 
 **Installing from deb packet**  
 
-[astra-learn.deb (click to download)](https://www.google.com/url?sa=i&url=https://pikabu.ru/story/windows_vs_linux_9008606&psig=AOvVaw17ktywBzO-eeXilm0tgmz9&ust=1743783400901000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKiq68OhvIwDFQAAAAAdAAAAABAI)
+[astra-learn.deb (click to download)]()
 ## Windows downloads  
 
 **install from exe application**  
 
-[astra-learn.exe (click to download)](https://www.google.com/url?sa=i&url=https://pikabu.ru/story/windows_vs_linux_9008606&psig=AOvVaw17ktywBzO-eeXilm0tgmz9&ust=1743783400901000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKiq68OhvIwDFQAAAAAdAAAAABAI) <br> <br> <br>  ----------------------------------------------------------- <br> *How to install? See on [instruction](http://localhost:1313/posts/how-to-download/)* 
+[astra-learn.exe (click to download)]() <br> <br> <br>  ----------------------------------------------------------- <br> *How to install? See on [instruction](http://localhost:1313/posts/how-to-download/)* 
 

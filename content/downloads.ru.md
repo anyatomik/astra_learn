@@ -6,14 +6,16 @@ title = 'Downloads'
 
 <br>
 
+Внимание! приложение находится в процессе разработки и еще не готово для использования. Все ссылки для скачивания на данный момент не доступны.
+
 ## Скачать для Linux 
 
 **Установка из deb пакета**  
 
-[astra-learn.deb (нажмите для скачивания)](https://www.google.com/url?sa=i&url=https://pikabu.ru/story/windows_vs_linux_9008606&psig=AOvVaw17ktywBzO-eeXilm0tgmz9&ust=1743783400901000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKiq68OhvIwDFQAAAAAdAAAAABAI)
+[astra-learn.deb (нажмите для скачивания)]() 
 ## Скачать для Windows 
 
 **Установка из exe приложения**  
 
-[astra-learn.exe (нажмите для скачивания)](https://www.google.com/url?sa=i&url=https://pikabu.ru/story/windows_vs_linux_9008606&psig=AOvVaw17ktywBzO-eeXilm0tgmz9&ust=1743783400901000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKiq68OhvIwDFQAAAAAdAAAAABAI) 
+[astra-learn.exe (нажмите для скачивания)]() 
 <br> <br> <br>  ----------------------------------------------------------- <br> *Как установить? Смотрите в [инструкции](/posts/how-to-download/)* 
